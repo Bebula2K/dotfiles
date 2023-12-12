@@ -20,8 +20,8 @@ $python\
 $character"""
 
 [directory]
-style = "#fb7e14"
-home_symbol = "λ"
+style = "#ffffff"
+home_symbol = "α"
 format = "[ $path ]($style)"
 
 [character]
