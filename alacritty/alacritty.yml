@@ -13,43 +13,49 @@ scrolling:
 
 font:
   normal:
-    family: BigBlueTermPlus Nerd Font
+    family: BigBlueTermPlus NerdFont
     style:  Regular
   bold:
-    family: BigBlueTermPlus Nerd Font
+    family: BigBlueTermPlus NerdFont
     style:  Bold
   italic:
-    family: BigBlueTermPlus Nerd Font
+    family: BigBlueTermPlus NerdFont
     style:  Italic
   bold_italic:
-    family: BigBlueTermPlus Nerd Font
+    family: BigBlueTermPlus NerdFont
     style: Bold Italic
   size: 10
 draw_bold_text_with_bright_colors: true
 
 colors:
+
   primary:
-    background: '#000000'
+    background: '0x000000'
     foreground: '0xffffff'
+
+  cursor:
+    text: '0xffffff'
+    cursor: '0xffffff'
 
   normal:
     black:   '0xffffff'
-    red:     '0xc82829'
-    green:   '0x718c00'
-    yellow:  '0xeab700'
-    blue:    '0x4271ae'
-    magenta: '#fb7e14'
-    cyan:    '0x3e999f'
-    white:   '0x4d4d4c'
+    red:     '0xff0002'
+    green:   '0x55d700'
+    yellow:  '0xeae600'
+    blue:    '0x003cff'
+    magenta: '0xb94dff'
+    cyan:    '0x19dbe8'
+    white:   '0xffffff'
+
   bright:
     black:   '0x8e908c'
-    red:     '0xf5871f'
-    green:   '0xe0e0e0'
-    yellow:  '0xd6d6d6'
-    blue:    '0x969896'
-    magenta: '#fb7e14'
-    cyan:    '0xa3685a'
-    white:   '0x1d1f21'
+    red:     '0xff0000'
+    green:   '0x00ff43'
+    yellow:  '0xecff00'
+    blue:    '0x003cff'
+    magenta: '0xbb41dd'
+    cyan:    '0x00fbff'
+    white:   '0xffffff'
 
 selection:
   save_to_clipboard: false
